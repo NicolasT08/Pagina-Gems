@@ -1,0 +1,3 @@
+# APKs locales fuera del repo, salvo el que descarga la página
+*.apk
+!app-release.apk
