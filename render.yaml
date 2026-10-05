@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: gems
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeploy: true
