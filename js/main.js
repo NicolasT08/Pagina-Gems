@@ -13,9 +13,8 @@ const CONFIG = {
   apkUrl: "app-release.apk",   // APK servido junto a esta página
   releasesUrl: "https://github.com/NicolasT08/Pagina-Gems/releases",
   contactEmail: "",            // TODO
-  // URL pública de esta página. Solo se usa para el QR cuando la página
-  // se abre localmente (file://); en GitHub Pages se usa la URL real.
-  pageUrl: "https://<USUARIO>.github.io/<REPO>/", // TODO
+  // URL de destino del QR.
+  pageUrl: "https://gems-tma1.onrender.com/",
 };
 
 (function () {
@@ -102,7 +101,6 @@ const CONFIG = {
   if (!isMobile) loadQR();
 
   function currentPageUrl() {
-    if (/^https?:$/.test(location.protocol)) return location.origin + location.pathname;
     return CONFIG.pageUrl;
   }
 

@@ -290,6 +290,57 @@ strong { font-weight: 600; }
   gap: 3rem;
 }
 
+.legacy-banner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr);
+  gap: .8rem;
+  width: min(100%, 34rem);
+  margin-bottom: 1.5rem;
+  padding: .85rem 1rem .9rem .85rem;
+  background: var(--ochre);
+  color: var(--ink);
+  border: 2px solid var(--shadow);
+  box-shadow: 5px 5px 0 var(--shadow);
+  transform: rotate(-1deg);
+}
+.legacy-banner__mark {
+  display: grid;
+  place-items: center;
+  align-self: start;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: var(--ink);
+  color: var(--ochre);
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.legacy-banner__eyebrow {
+  margin-bottom: .18rem;
+  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.legacy-banner__title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 650;
+  line-height: 1.05;
+}
+.legacy-banner__title strong {
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.legacy-banner__copy {
+  max-width: 28rem;
+  margin-top: .35rem;
+  font-size: .88rem;
+  line-height: 1.4;
+}
+
 .hero h1 {
   margin-top: 1rem;
   font-size: clamp(2.35rem, 8.6vw, 4.75rem);
