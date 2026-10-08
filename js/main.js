@@ -11,7 +11,7 @@ const CONFIG = {
   minAndroid: "8.0",           // TODO: según minSdkVersion
   sha256: "99ef0838b4f5a1b4eb7a0ee1159d039b6a7a8703d6248a303da051700a3530ef", // hash de app-release.apk (ver README)
   apkUrl: "app-release.apk",   // APK servido junto a esta página
-  releasesUrl: "https://github.com/<USUARIO>/<REPO>/releases",
+  releasesUrl: "https://github.com/NicolasT08/Pagina-Gems/releases",
   contactEmail: "",            // TODO
   // URL pública de esta página. Solo se usa para el QR cuando la página
   // se abre localmente (file://); en GitHub Pages se usa la URL real.
