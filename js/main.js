@@ -7,9 +7,9 @@ const CONFIG = {
   appName: "GEMS",
   version: "1.0.0",            // TODO: versión real
   releaseDate: "2026-10-03",   // TODO
-  apkSizeMB: 79.1,             // tamaño de app-release.apk
+  apkSizeMB: 81.7,             // tamaño de app-release.apk
   minAndroid: "8.0",           // TODO: según minSdkVersion
-  sha256: "99ef0838b4f5a1b4eb7a0ee1159d039b6a7a8703d6248a303da051700a3530ef", // hash de app-release.apk (ver README)
+  sha256: "010144967ec91fe46d813dd66ae13c7357335311dddbce89a33e517430adc0c1", // hash de app-release.apk (ver README)
   apkUrl: "app-release.apk",   // APK servido junto a esta página
   releasesUrl: "https://github.com/NicolasT08/Pagina-Gems/releases",
   contactEmail: "",            // TODO
