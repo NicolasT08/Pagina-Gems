@@ -290,58 +290,6 @@ strong { font-weight: 600; }
   gap: 3rem;
 }
 
-.legacy-banner {
-  position: relative;
-  display: grid;
-  grid-template-columns: 2.75rem minmax(0, 1fr);
-  gap: .8rem;
-  width: min(100%, 34rem);
-  margin-bottom: 1.5rem;
-  padding: .7rem .9rem .75rem .7rem;
-  background: color-mix(in srgb, var(--ochre) 16%, var(--card));
-  color: var(--ink);
-  border: 1px solid var(--line);
-  border-left: 3px solid var(--ochre);
-}
-.legacy-banner__mark {
-  display: grid;
-  place-items: center;
-  align-self: start;
-  width: 2.75rem;
-  height: 2.75rem;
-  background: var(--ochre);
-  color: var(--ink);
-  font-family: var(--font-display);
-  font-size: 1.8rem;
-  font-weight: 700;
-  line-height: 1;
-}
-.legacy-banner__eyebrow {
-  margin-bottom: .18rem;
-  color: var(--ochre-ink);
-  font-size: .65rem;
-  font-weight: 500;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-.legacy-banner__title {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  font-weight: 650;
-  line-height: 1.05;
-}
-.legacy-banner__title strong {
-  text-transform: uppercase;
-  letter-spacing: .03em;
-}
-.legacy-banner__copy {
-  max-width: 28rem;
-  margin-top: .35rem;
-  color: var(--muted);
-  font-size: .8rem;
-  line-height: 1.4;
-}
-
 .hero h1 {
   margin-top: 1rem;
   font-size: clamp(2.35rem, 8.6vw, 4.75rem);
@@ -645,6 +593,44 @@ strong { font-weight: 600; }
   letter-spacing: .03em;
   color: var(--muted);
 }
+
+/* ---------- Recurso del proyecto ---------- */
+
+.project-resource {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--ochre);
+  border-radius: 2px var(--radius) var(--radius) 2px;
+}
+.project-resource > div { flex: 1 1 28rem; }
+.project-resource__meta {
+  margin-bottom: .55rem;
+  color: var(--ochre-ink);
+  font-size: .75rem;
+  letter-spacing: .03em;
+}
+.project-resource h3 { max-width: 48ch; font-size: 1.3rem; }
+.project-resource p:last-child { margin-top: .55rem; color: var(--muted); font-size: .9375rem; }
+.project-resource__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 44px;
+  padding: .55rem .9rem;
+  background: var(--moss);
+  color: var(--on-moss);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 7px;
+}
+.project-resource__link:hover { background: var(--moss-hover); }
 
 /* ---------- Capturas ---------- */
 
