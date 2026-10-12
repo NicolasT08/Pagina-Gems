@@ -897,6 +897,15 @@ strong { font-weight: 600; }
   align-content: start;
 }
 .site-footer__links a { font-weight: 500; overflow-wrap: anywhere; }
+.site-footer__links .source-link {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  padding: .2rem .65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none;
+}
 .site-footer__meta { font-size: .8125rem; color: var(--muted); }
 .site-footer__base {
   margin-top: 2rem;

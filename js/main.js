@@ -11,7 +11,7 @@ const CONFIG = {
   minAndroid: "8.0",           // TODO: según minSdkVersion
   sha256: "010144967ec91fe46d813dd66ae13c7357335311dddbce89a33e517430adc0c1", // hash de app-release.apk (ver README)
   apkUrl: "app-release.apk",   // APK servido junto a esta página
-  releasesUrl: "https://github.com/NicolasT08/Pagina-Gems/releases",
+  releasesUrl: "https://github.com/DumarMalpica/GEMS/releases",
   contactEmail: "",            // TODO
   // URL de destino del QR.
   pageUrl: "https://gems-tma1.onrender.com/",
